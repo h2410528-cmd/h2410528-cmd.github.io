@@ -1,0 +1,21 @@
+﻿/* 전체 글꼴, 기본 여백, 줄 간격 */
+body { font-family: Arial, "Noto Sans KR", sans-serif; margin: 20px; line-height: 1.7; }
+
+/* 상단 헤더 영역 */
+header { background: #333; color: #fff; padding: 16px 20px; }
+h1 { margin: 0; font-size: 24px; }
+
+/* 본문 */
+article { max-width: 860px; margin-top: 24px; }
+article h2 { font-size: 20px; color: #333; margin-bottom: 12px; }
+article p { font-size: 16px; color: #222; }
+
+/* 링크(홈으로) */
+nav a { display: inline-block; margin-top: 24px; color: #1a73e8; text-decoration: none; font-weight: 600; }
+nav a:hover { text-decoration: underline; }
+
+/* 메인 목록 */
+ul { list-style: disc; padding-left: 20px; }
+ul li { margin: 10px 0; }
+ul a { color: #1a73e8; text-decoration: none; }
+ul a:hover { text-decoration: underline; }
